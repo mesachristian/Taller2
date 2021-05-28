@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "876741744697",
+    "project_id": "taller2compu",
+    "storage_bucket": "taller2compu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876741744697:android:5487864200d5ebc2f0d5e8",
+        "android_client_info": {
+          "package_name": "com.example.taller2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876741744697-aocs2tupf7b54vnc62l3t3vjfh6fhurs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdC01DT7vsNTU_VthrDxKFYks46OWi1Ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876741744697-aocs2tupf7b54vnc62l3t3vjfh6fhurs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

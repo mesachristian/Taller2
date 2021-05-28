@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRO"
+        android:textSize="50dp"
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:hint="NOMBRE"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:hint="APELLIDO"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:hint="IDENTIFICACIÓN"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:text="LATITUD: "/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:text="LONGITUD: "/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:hint="EMAIL"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:hint="CONTRASEÑA"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginBottom="46dp"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IMAGEN PERFIL:" />
+
+        <ImageView
+            android:id="@+id/register_profile_pic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageButton
+            android:id="@+id/select_media_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_perm_media_24"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageButton
+            android:id="@+id/use_camera_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_camera_alt_24"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="SIGN UP"/>
+
+    <Button
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="LOGIN"/>
+
+</LinearLayout>
