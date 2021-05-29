@@ -18,24 +18,28 @@
         android:layout_marginTop="100dp"/>
 
     <EditText
+        android:id="@+id/login_email_field"
         android:layout_marginTop="40dp"
         android:layout_width="236dp"
         android:layout_height="wrap_content"
         android:hint="EMAIL"/>
 
     <EditText
+        android:id="@+id/login_password_field"
         android:layout_marginTop="40dp"
         android:layout_width="236dp"
         android:layout_height="wrap_content"
         android:hint="PASSWORD"/>
 
     <Button
+        android:id="@+id/login_btn"
         android:layout_width="236dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="LOGIN"/>
 
     <Button
+        android:id="@+id/open_sign_up_btn"
         android:layout_width="236dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"

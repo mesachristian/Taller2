@@ -45,4 +45,10 @@ dependencies {
 
     // FIREBASE DATABASE
     implementation 'com.google.firebase:firebase-database'
+
+    // FIREBASE STORAGE
+    implementation 'com.google.firebase:firebase-storage'
+
+    // LOCATION
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
 }
