@@ -18,7 +18,6 @@ public class NotificationProvider {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 Post post = dataSnapshot.getValue(Post.class);
-                post.body
             }
             @Override
             public void onCancelled(DatabaseError databaseError) {
