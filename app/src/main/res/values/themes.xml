@@ -13,4 +13,9 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+<<<<<<< Updated upstream
+=======
+
+    <style name="Theme.Taller2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+>>>>>>> Stashed changes
 </resources>
