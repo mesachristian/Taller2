@@ -13,9 +13,15 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
-<<<<<<< Updated upstream
-=======
+
 
     <style name="Theme.Taller2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
->>>>>>> Stashed changes
+
+    <style name="Theme.Taller2.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Taller2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
 </resources>

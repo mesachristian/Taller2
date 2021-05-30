@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent;
 
                 if(currentUser == null){
-                    intent = new Intent(MainActivity.this, LoginActivity.class);
+                    intent = new Intent(MainActivity.this, HomeActivity.class);
                 }else{
                     intent = new Intent(MainActivity.this, MapActivity.class);
                 }
