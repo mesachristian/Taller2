@@ -2,7 +2,7 @@ package com.example.taller2.provider;
 
 import android.util.Log;
 
-import com.example.taller2.model.Post;
+import com.example.taller2.model.User;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -17,7 +17,7 @@ public class NotificationProvider {
         ValueEventListener postListener = new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                Post post = dataSnapshot.getValue(Post.class);
+                User user = dataSnapshot.getValue(User.class);
             }
             @Override
             public void onCancelled(DatabaseError databaseError) {
