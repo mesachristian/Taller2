@@ -38,20 +38,6 @@
         android:layout_height="wrap_content"
         android:hint="IDENTIFICACIÓN"/>
 
-    <TextView
-        android:id="@+id/r_latitude_field"
-        android:layout_marginTop="10dp"
-        android:layout_width="236dp"
-        android:layout_height="wrap_content"
-        android:text="LATITUD: "/>
-
-    <TextView
-        android:id="@+id/r_longitude_field"
-        android:layout_marginTop="10dp"
-        android:layout_width="236dp"
-        android:layout_height="wrap_content"
-        android:text="LONGITUD: "/>
-
     <EditText
         android:id="@+id/r_email_field"
         android:layout_marginTop="10dp"

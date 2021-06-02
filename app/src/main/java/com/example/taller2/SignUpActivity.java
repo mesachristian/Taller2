@@ -89,8 +89,6 @@ public class SignUpActivity extends AppCompatActivity {
         profilePicture = findViewById(R.id.register_profile_pic);
         cameraBtn = findViewById(R.id.use_camera_btn);
         mediaBtn = findViewById(R.id.select_media_btn);
-        latitudeField = findViewById(R.id.r_latitude_field);
-        longitudeField = findViewById(R.id.r_longitude_field);
         signUpBtn = findViewById(R.id.sign_up_btn);
         loginBtn = findViewById(R.id.open_login_btn);
 
@@ -225,9 +223,6 @@ public class SignUpActivity extends AppCompatActivity {
     private void updateUI(Location location){
         latitude = String.valueOf(location.getLatitude());
         longitude = String.valueOf(location.getLongitude());
-
-        latitudeField.setText("LATITUD: " + latitude);
-        longitudeField.setText("LONGITUD: " + longitude);
     }
 
     private void signUp(){
